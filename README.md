@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Speech Recognition
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Speech to Text application built using React. It allows users to convert spoken language into text, primarily supporting English. The app provides features like starting and stopping speech recognition, as well as the ability to copy the transcribed text to the clipboard, reset the speech. The project utilizes the react-speech-recognition and react-use-clipboard packages from npm.
 
-## Available Scripts
+## Features
+<ul>
+<li>Speech-to-text conversion for English.</li>
+<li>Start and stop recognition using the "Start Listening" and "Stop Listening" buttons.</li>
+<li>Copy transcribed text to the clipboard.</li>
+<li>Reset the speech and start over again for new speech.</li>
+<li>Interactive user interface.</li>
+</ul>
 
-In the project directory, you can run:
+## Demo
+You can try out the live demo of the Speech to Text App here: https://speech-recognition-ten-kappa.vercel.app/
 
-### `npm start`
+## Installation
+Follow these steps to set up the project locally:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository to your local machine:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+git clone https://speech-recognition-ten-kappa.vercel.app/
 
-### `npm test`
+2. Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install the project dependencies using npm or yarn: <b>npm install</b> or <b>yarn install</b>
 
-### `npm run build`
+4. Start the development server: <b>npm run dev</b> or <b>yarn dev</b>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Open your browser and go to http://localhost:3000 to view the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
+<ol>
+<li>Start the Speech to Text App by clicking the "Start Listening" button.</li>
+<li>Speak into your microphone, and the app will transcribe your speech into text in real-time.</li>
+<li>To stop the recognition, click the "Stop Listening" button.</li>
+<li>Click on the transcribed text area to select all the text.</li>
+<li>Click the "Copy to Clipboard" button to copy the text to your clipboard.</li>
+<li>Paste the copied text wherever you need it.</li>
+</ol>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
+If you would like to contribute to the development of this app, please follow these guidelines:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository to your GitHub account.
+2. Create a new branch for your feature or bug fix: git checkout -b feature-name.
+3. Implement your changes and commit them: git commit -m "Add feature-name".
+4. Push your changes to your fork: git push origin feature-name.
+5. Create a pull request to the main repository.
